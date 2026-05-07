@@ -110,16 +110,17 @@ React pertama berhasil dijalankan di browser lokal.
 
 ---
 
-## [ver.1.0] — *(tujuan akhir)*
+## [ver.1.0] — Project Selesai 🎉
 
-**Fase:** Fase 7 — Deploy & polish  
-Versi pertama yang lengkap dan bisa diakses publik.
+**Fase:** Fase 7 — Polish desain & deploy
 
-### Rencana isi ver.1.0
-- Tampilan UI yang telah dipoles dan ramah anak SD
-- Sudah diuji coba dengan pengguna nyata
-- Website live dan bisa diakses dari link Vercel
-- Semua fitur dari fase 1–7 berjalan stabil
+### Dicapai
+- Semua kode berhasil di-push ke GitHub
+- Website berhasil di-deploy ke Vercel
+- Link publik: https://edu-game-pink.vercel.app
+- Website bisa diakses dari HP dan komputer
+- Semua fitur berjalan: login, quiz, XP, level, karakter, item, quest, leaderboard
+- Setiap push ke GitHub otomatis update website di Vercel
 
 ---
 
