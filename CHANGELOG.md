@@ -94,10 +94,19 @@ React pertama berhasil dijalankan di browser lokal.
 
 ---
 
-## [ver.0.6] — *(akan datang)*
+## [ver.0.6] — Fase 6 selesai ✅
 
-**Fase:** Fase 6 — Quest harian & leaderboard  
-Quest harian bisa diselesaikan. Skor muncul di papan peringkat kelas.
+**Fase:** Fase 6 — Quest harian & leaderboard
+
+### Dicapai
+- Data quest dibuat di `src/data/quest.js` (4 quest harian)
+- Halaman Quest menampilkan progress bar setiap quest
+- Quest selesai otomatis terdeteksi setelah quiz
+- Reward XP dari quest diberikan dan tersimpan ke Firestore
+- Progress quest reset otomatis setiap hari baru
+- Halaman Leaderboard menampilkan top 10 siswa berdasarkan XP
+- Posisi pemain sendiri ditandai khusus di leaderboard
+- Notifikasi oranye muncul saat quest selesai
 
 ---
 
