@@ -52,11 +52,16 @@ React pertama berhasil dijalankan di browser lokal.
 
 ---
 
-## [ver.0.3] — *(akan datang)*
+## [ver.0.3] — Fase 3 selesai ✅
 
-**Fase:** Fase 3 — Modul belajar pertama  
-Soal pilihan ganda pertama bisa dikerjakan dan hasilnya tersimpan ke Firestore.
+**Fase:** Fase 3 — Modul belajar pertama
 
+### Dicapai
+- Data soal pilihan ganda dibuat di `src/data/soal.js`
+- Halaman Quiz berfungsi dengan navigasi soal per soal
+- Jawaban tersimpan ke koleksi `hasil_quiz` di Firestore
+- XP siswa bertambah otomatis setelah quiz selesai
+- Profil siswa terupdate langsung setelah quiz tanpa perlu reload
 ---
 
 ## [ver.0.4] — *(akan datang)*
