@@ -39,15 +39,16 @@ React pertama berhasil dijalankan di browser lokal.
 
 ---
 
-## [ver.0.2] — Fase 2 dimulai ✅
+## [ver.0.2] — Fase 2 selesai ✅
 
-**Fase:** Fase 2 — Login & profil siswa  
-React + Vite berhasil terhubung ke Firebase Firestore.
+**Fase:** Fase 2 — Login & profil siswa
 
 ### Dicapai
-- Firebase berhasil diinstall ke project Vite
-- File `src/firebase/config.js` dibuat dan terkonfigurasi
-- Koneksi ke Firestore berhasil diuji dan tampil di browser
+- Firebase Authentication berhasil diintegrasikan
+- Halaman daftar akun berfungsi dan menyimpan profil ke Firestore
+- Halaman login berfungsi dengan email & password
+- Profil siswa (nama, karakter, XP, level) tampil setelah login
+- Tombol logout berfungsi
 
 ---
 
