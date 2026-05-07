@@ -64,10 +64,17 @@ React pertama berhasil dijalankan di browser lokal.
 - Profil siswa terupdate langsung setelah quiz tanpa perlu reload
 ---
 
-## [ver.0.4] — *(akan datang)*
+## [ver.0.4] — Fase 4 selesai ✅
 
-**Fase:** Fase 4 — Sistem XP & level  
-XP bertambah saat menjawab soal. Level naik otomatis. Progress bar tampil di layar.
+**Fase:** Fase 4 — Sistem XP & level
+
+### Dicapai
+- Logika perhitungan level dibuat di `src/data/level.js`
+- 7 tingkat level dengan nama RPG tersedia
+- Progress bar XP tampil di halaman profil
+- Level naik otomatis setelah XP cukup
+- Notifikasi naik level muncul selama 5 detik
+- Data level tersimpan ke Firestore
 
 ---
 
