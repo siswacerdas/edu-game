@@ -26,10 +26,16 @@ Ini adalah titik nol. Project baru lahir. Belum ada fitur, belum ada kode yang b
 
 ---
 
-## [ver.0.1] — *(akan datang)*
+## [ver.0.1] — Fase 1 selesai ✅
 
 **Fase:** Fase 1 — Setup lingkungan kerja  
 React pertama berhasil dijalankan di browser lokal.
+
+### Dicapai
+- Akun GitHub dibuat dan repository `edu-game` siap
+- VS Code terinstall dengan extension pendukung
+- Project Firebase dibuat dengan Firestore & Authentication aktif
+- React berhasil dijalankan di browser lokal
 
 ---
 
