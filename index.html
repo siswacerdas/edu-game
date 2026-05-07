@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!doctype html>
 <html lang="en">
   <head>
@@ -10,4 +11,187 @@
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
   </body>
+=======
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Edu Game — Belajar Seru ala RPG</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: #0f0e17;
+      color: #fffffe;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 2rem;
+    }
+
+    .badge {
+      display: inline-block;
+      background: #ff8906;
+      color: #0f0e17;
+      font-size: 0.75rem;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      padding: 0.3rem 0.8rem;
+      border-radius: 999px;
+      margin-bottom: 1.5rem;
+    }
+
+    h1 {
+      font-size: clamp(2rem, 6vw, 3.5rem);
+      font-weight: 800;
+      line-height: 1.15;
+      margin-bottom: 1rem;
+    }
+
+    h1 span {
+      color: #ff8906;
+    }
+
+    p {
+      font-size: 1.1rem;
+      color: #a7a9be;
+      max-width: 480px;
+      line-height: 1.7;
+      margin-bottom: 2.5rem;
+    }
+
+    .status-card {
+      background: #1a1a2e;
+      border: 1px solid #2e2e4a;
+      border-radius: 16px;
+      padding: 1.5rem 2rem;
+      max-width: 400px;
+      width: 100%;
+      margin-bottom: 2rem;
+    }
+
+    .status-card h2 {
+      font-size: 0.85rem;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: #a7a9be;
+      margin-bottom: 1rem;
+    }
+
+    .phase {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      padding: 0.6rem 0;
+      border-bottom: 1px solid #2e2e4a;
+      font-size: 0.9rem;
+    }
+
+    .phase:last-child {
+      border-bottom: none;
+    }
+
+    .dot {
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      flex-shrink: 0;
+    }
+
+    .dot.active  { background: #ff8906; }
+    .dot.done    { background: #3da35d; }
+    .dot.waiting { background: #2e2e4a; border: 1px solid #555; }
+
+    .phase-label {
+      flex: 1;
+      text-align: left;
+      color: #fffffe;
+    }
+
+    .phase-label.muted {
+      color: #a7a9be;
+    }
+
+    .tag {
+      font-size: 0.7rem;
+      padding: 0.15rem 0.5rem;
+      border-radius: 999px;
+      font-weight: 600;
+    }
+
+    .tag.active  { background: #ff890620; color: #ff8906; }
+    .tag.waiting { background: #2e2e4a; color: #a7a9be; }
+
+    footer {
+      font-size: 0.8rem;
+      color: #555;
+      margin-top: 1rem;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="badge">🚧 Sedang dibangun</div>
+
+  <h1>Belajar Seru<br /><span>ala RPG</span></h1>
+
+  <p>
+    Aplikasi belajar untuk siswa SD yang dikemas seperti game RPG —
+    kumpulkan XP, naik level, dan selesaikan quest sambil menguasai pelajaran.
+  </p>
+
+  <div class="status-card">
+    <h2>📍 Progress Pengembangan</h2>
+
+    <div class="phase">
+      <div class="dot active"></div>
+      <span class="phase-label">Fase 1 — Setup lingkungan kerja</span>
+      <span class="tag active">Aktif</span>
+    </div>
+    <div class="phase">
+      <div class="dot waiting"></div>
+      <span class="phase-label muted">Fase 2 — Login & profil siswa</span>
+      <span class="tag waiting">Menunggu</span>
+    </div>
+    <div class="phase">
+      <div class="dot waiting"></div>
+      <span class="phase-label muted">Fase 3 — Modul belajar pertama</span>
+      <span class="tag waiting">Menunggu</span>
+    </div>
+    <div class="phase">
+      <div class="dot waiting"></div>
+      <span class="phase-label muted">Fase 4 — Sistem XP & level</span>
+      <span class="tag waiting">Menunggu</span>
+    </div>
+    <div class="phase">
+      <div class="dot waiting"></div>
+      <span class="phase-label muted">Fase 5 — Elemen RPG</span>
+      <span class="tag waiting">Menunggu</span>
+    </div>
+    <div class="phase">
+      <div class="dot waiting"></div>
+      <span class="phase-label muted">Fase 6 — Quest & leaderboard</span>
+      <span class="tag waiting">Menunggu</span>
+    </div>
+    <div class="phase">
+      <div class="dot waiting"></div>
+      <span class="phase-label muted">Fase 7 — Deploy & polish</span>
+      <span class="tag waiting">Menunggu</span>
+    </div>
+  </div>
+
+  <footer>ver.0.1 · github.com/siswacerdas/edu-game</footer>
+
+</body>
+>>>>>>> 6327465b88285c9ed5d7db916899d2888dcc379c
 </html>
