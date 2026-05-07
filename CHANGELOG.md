@@ -78,10 +78,19 @@ React pertama berhasil dijalankan di browser lokal.
 
 ---
 
-## [ver.0.5] — *(akan datang)*
+## [ver.0.5] — Fase 5 selesai ✅
 
-**Fase:** Fase 5 — Elemen RPG  
-Avatar karakter tampil. Stat berkembang. Item reward bisa didapat dari quest.
+**Fase:** Fase 5 — Elemen RPG (karakter & item)
+
+### Dicapai
+- Data karakter dibuat di `src/data/karakter.js` (Pejuang, Penyihir, Pemanah)
+- Data item dibuat di `src/data/item.js` (5 item dengan syarat level & quiz)
+- Halaman Karakter menampilkan avatar emoji, deskripsi, dan stat
+- Progress bar untuk setiap stat (Kekuatan, Kecerdasan, Ketangkasan)
+- Item reward diberikan otomatis setelah quiz berdasarkan syarat
+- Bonus stat dari item tampil di halaman Karakter
+- Notifikasi hijau muncul saat mendapat item baru
+- Penghitung quiz diselesaikan tersimpan di Firestore
 
 ---
 
